@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-cpm",
+  "name": "CPM Meter",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Показывает скорость печати (символов в минуту) над курсором в редакторе.",
+  "author": "Rulunchic",
+  "isDesktopOnly": true
+}

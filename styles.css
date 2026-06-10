@@ -1,0 +1,16 @@
+.cpm-overlay {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  font-size: 12px;
+  font-family: var(--font-monospace), monospace;
+  color: var(--text-muted);
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  padding: 2px 6px;
+  white-space: nowrap;
+  line-height: 1.4;
+  display: none;
+  user-select: none;
+}

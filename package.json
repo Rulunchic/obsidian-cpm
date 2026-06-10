@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-cpm",
+  "version": "0.1.0",
+  "description": "CPM meter — typing speed indicator for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": ["obsidian", "plugin", "cpm", "typing-speed"],
+  "author": "Rulunchic",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.8.7",
+    "tslib": "^2.8.0",
+    "typescript": "^5.7.0"
+  }
+}
